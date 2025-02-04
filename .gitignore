@@ -137,3 +137,16 @@ kernel/configs/android-*.cfg
 
 # vendor device tree directories
 arch/arm64/boot/dts/vendor/
+
+# Additional ignore patterns
+/out/
+kernel_build.log
+*.log
+*.orig
+*.tmp
+/toolchain
+/gcc*
+/clang
+/arch/arm64/boot/Image
+/arch/arm64/boot/Image.gz
+/arch/arm64/boot/Image.gz-dtb
