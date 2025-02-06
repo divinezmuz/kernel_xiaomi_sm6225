@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Current time (UTC)
-BUILD_START_TIME="2025-02-03 15:22:31"
-CURRENT_USER="divinezmuz"
-
 # Basic setup
 export ARCH=arm64
 export SUBARCH=arm64
